@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div>
+        <h1>Welcome to Javascript</h1>
+    <!-- WELCOME NAME START -->
+        <input id="name" type="text" placeholder="Enter Your Name" onkeyup="welcome()">
+        <h4 id="wlc"></h4>
+    <!-- WELCOME NAME END -->
+     <!-- loop section start -->
+     <select id="year">
+    </select>
+
+    <select id="month">
+    </select>
+
+    <select id="day">
+    </select>
+
+    
+<!-- loop section End -->
+    <!-- GRADE START -->    
+        <h3 class="number_checking">You can check your grade</h3>
+        <label for="numbers" class="label">Please, type your marks.</label>
+        <input type="number" id="numbers" placeholder="Enter Your Marks" onkeyup="showgrade()">
+        <h4 id="grade"></h4>
+    <!-- GRADE END -->
+    <!-- ODD & EVEN START -->
+        <h3 class="number_checking">You Can check a number "ODD" or "Even"</h3>
+        <label for="getanum" class="label">type a number in the box.</label>
+        <input type="number" id="getanum" placeholder="Get a Number" onkeyup="oddeven()">
+        <h4 id="oddevenrslt"></h4>
+    <!-- ODD & EVEN END -->
+
+    <!-- Sum START -->
+        <h3 class="number_checking">You can add two number</h3>
+        <input type="number" id="1stnum" placeholder="Enter 1st Number">
+        <input type="number" id="2ndnum" placeholder="Enter 2nd Number">
+        <button id="add">ADD</button>
+        <h4 id="add_rslt"></h4>
+    <!-- Sum END -->
+
+    <!-- 100 to 1 print section start -->
+    <h3 class="number_checking">100 to 1 printed by for loop</h3>
+    <!-- 100 to 1 print section End -->
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
